@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BraveNewCoin API escenarios: POST GetToken" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-16T02:00:31" hostname="LIM-7CBMXY2" time="3.785">
+  <properties/>
+  <testcase name="As a user, I can retrieve a Token when making a valid POST request" classname="BraveNewCoin API escenarios: POST GetToken" time="3.785"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://bravenewcoin.p.rapidapi.com/oauth/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-rapidapi-host=bravenewcoin.p.rapidapi.com
+				x-rapidapi-key=6105fd816fmshe47bd6bbe34a47ap19d56fjsn3558561c7121
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+src\test\resources\payloads\TokenRequestBody.json
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 16 Sep 2021 02:02:38 GMT
+Server: RapidAPI-1.2.8
+Via: 1.1 9bfe9025214153b614d35b5ab1f95b66.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: J0_OEM8y4F3SDdd2S_XX7eJ3nEaiTqrYemtnP0J53VF5l15a4ZiDqQ==
+X-Amz-Cf-Pop: GRU1-C1
+X-Cache: Miss from cloudfront
+X-RapidAPI-Region: AWS - sa-east-1
+X-RapidAPI-Version: 1.2.8
+X-RateLimit-Lookups-Limit: 200000
+X-RateLimit-Lookups-Remaining: 199987
+X-RateLimit-Lookups-Reset: 2172955
+X-RateLimit-Ticker-Requests-Limit: 200000
+X-RateLimit-Ticker-Requests-Remaining: 200000
+X-RateLimit-Ticker-Requests-Reset: 2172955
+Content-Length: 1120
+Connection: keep-alive
+
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik5EVXhNRGhHT0VReE56STVOelJCTTBJM1FrUTVOa0l4TWtRd1FrSTJSalJFTVRaR1F6QTBOZyJ9.eyJpc3MiOiJodHRwczovL2F1dGguYnJhdmVuZXdjb2luLmNvbS8iLCJzdWIiOiJvQ2RRb1pvSTk2RVJFOUhZM3NRN0ptYkFDZkJmNTVSWUBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkuYnJhdmVuZXdjb2luLmNvbSIsImlhdCI6MTYzMTc0NjE3NCwiZXhwIjoxNjMxODMyNTc0LCJhenAiOiJvQ2RRb1pvSTk2RVJFOUhZM3NRN0ptYkFDZkJmNTVSWSIsInNjb3BlIjoicmVhZDppbmRleC10aWNrZXIgcmVhZDpyYW5raW5nIHJlYWQ6bXdhIHJlYWQ6Z3dhIHJlYWQ6YWdncmVnYXRlcyByZWFkOm1hcmtldCByZWFkOmFzc2V0IHJlYWQ6b2hsY3YgcmVhZDptYXJrZXQtY2FwIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.JBFQBRuq_b4TZ4g8bEqzPm_s8c7U2FivqXOJsU7JbU_LZ3LpRAv2hyX65zRdE01b5qiQD6G1cYaO5jcTi3fSHnbfNH2HvMG0m-jeSqYYYKNWw9BLX6zIu_9rdyKddGj--KfGH-w_8-sDJJpS9Ph7iNfHkPzXYPONNG2Vu2MzvOal1VsPqCjS79WSks8Rr6IgVe320l3USsduog7OKFtlhZI1PyWPAlJgRG1-097IxcE06GMER5SDePhcOZcDQjKMkD9G6s3SRp3sLAU8p-B2lEvUkMtre2RnkuA7FoIDQBekKu5iRAIkLBRgCAR0E4Bmq5kRCdjLT-Law7Hl2ScVnA",
+    "scope": "read:index-ticker read:ranking read:mwa read:gwa read:aggregates read:market read:asset read:ohlcv read:market-cap",
+    "expires_in": 74815,
+    "token_type": "Bearer"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

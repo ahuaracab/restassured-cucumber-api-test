@@ -1,0 +1,10 @@
+steps/SOAPRequest.java
+ steps.SOAPRequest
+steps/RestAssuredOnly.java
+ steps.RestAssuredOnly
+runner/Runner.java
+ runner.Runner
+steps/APITestSteps.java
+ steps.APITestSteps
+steps/BraveNewCoinSteps.java
+ steps.BraveNewCoinSteps
